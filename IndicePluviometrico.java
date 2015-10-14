@@ -24,7 +24,7 @@ public class IndicePluviometrico {
 		media = media / dias;
 
 		System.out.println("O indice pluviometrico medio eh: " + media + "\n O pico foi no dia: " + pico);
-
+		sc.close();
 	}
 
 }
